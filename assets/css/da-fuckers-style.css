@@ -1,0 +1,132 @@
+
+/* Circular Content Carousel Style */
+.ca-container{
+	position:relative;
+	width:1020px;
+	height:670px;
+}
+.ca-wrapper{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.ca-item{
+	position:relative;
+	float:left;
+	width:305px;
+	height:100%;
+	text-align:center;
+}
+.ca-nav span{
+	width:30px;
+	position:absolute;
+	top:50%;
+	margin-top:-19px;
+	left:-40px;
+	text-indent:-9000px;
+	opacity:0.7;
+	cursor:pointer;
+	z-index:100;
+}
+.ca-nav span.ca-nav-next{
+	background-position:top right;
+	left:auto;
+	right:-40px;
+}
+.ca-nav-prev{
+    display: block;
+    position: relative;
+    content: 'asas';
+	background:url(../images/body/flecha-izquierda.png) no-repeat center left;
+}
+.ca-nav-next{
+	display: block;
+    position: relative;
+    content: 'asas';
+	background:url(../images/body/flecha-derecha.png) no-repeat center left;
+}
+
+@media (max-width: 575.98px) {
+    .ca-container{
+        width: 300px;
+        height: 800px;
+    }
+    
+}
+@media (max-width: 800.98px) {
+     .ca-nav-prev,.ca-nav-next{
+        position: relative;
+        background-color: #0bddd7;
+    }
+    .ca-nav-next{
+        margin-right: 60px;
+    }
+    .ca-nav-prev{
+        margin-left: 40px;
+    }
+    .ca-item {
+        width: 348px;
+    }
+    .ca-container{
+        height: 805px;
+    }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .ca-container{
+        margin-left: 7px;
+        width: 1020px;
+        height: 800px;
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .ca-item {
+        width: 350px;
+    }
+    .ca-nav-prev,.ca-nav-next{
+        position: relative;
+        background-color: #0bddd7;
+    }
+    .ca-nav-next{
+        margin-right: 60px;
+    }
+    .ca-nav-prev{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 450.98px) {
+    .ca-container{
+        margin-left: 7px;
+        width: 410px;
+        height: 800px;
+        overflow: hidden;
+    }
+    .ca-item {
+        width: 390px;
+    }
+}
+
+@media (max-width: 385.98px) {
+    .ca-container{
+        margin-left: 7px;
+        width: 375px;
+        height: 800px;
+        overflow: hidden;
+    }
+    .ca-item {
+        width: 359px;
+    }
+}
+
+@media (max-width: 360.98px) {
+    .ca-container{
+        margin-left: 7px;
+        width: 355px;
+        height: 800px;
+        overflow: hidden;
+    }
+    .ca-item {
+        width: 330px;
+    }
+}
