@@ -1,0 +1,7 @@
+<form class="input-group"  action="correo.php" method="POST" >
+                                            <input name="email"type="email" class="form-control-contact" placeholder="Your fucking email">
+                                            <button type="submit" class="btn-search <btn-sm></btn-sm>">
+                                                <H4>GO</H4>
+                                                <img src="assets/images/gif/saw.gif" alt="Funny image">
+                                            </button>
+                                        </form>
