@@ -356,6 +356,12 @@
 /* line 4, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_service.scss */
 .service_part .single_service_part_iner img{
     border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background: #FFF;
+}
+.service_part .single_service_part_iner .custom-myfh{
+    
 }
 .service_part .single_service_part_iner {
   background-color: #1b1e274d;
