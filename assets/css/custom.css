@@ -819,6 +819,11 @@ img {
     font-size: 18px;
 }
 
+.media.post_item img{
+    width: 100px;
+    height: 100px;
+}
+
 /*=====================================*/
 /*========= CONTACT FORM ==============*/
 .contact{
